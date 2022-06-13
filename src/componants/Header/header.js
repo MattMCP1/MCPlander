@@ -24,14 +24,14 @@ const Header = () => {
       t.src=v;s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '349016657222485');
+      fbq('init', '543446066647768');
       fbq('track', 'PageView');`,
             }}
           />
           <noscript
             dangerouslySetInnerHTML={{
               __html: `<img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=349016657222485&ev=PageView&noscript=1" />`,
+      src="https://www.facebook.com/tr?id=543446066647768&ev=PageView&noscript=1" />`,
             }}
           />
         </React.Fragment>
