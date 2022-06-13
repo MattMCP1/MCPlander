@@ -1,0 +1,65 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+//@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+//.slide-in {
+// position: fixed;
+//top: 0;
+// left: 0;
+// height: 100vh;
+// width: 100%;
+//background: #066bb8;
+//transform-origin: left;
+//}
+
+//.slide-out {
+//  position: fixed;
+// top: 0;
+//left: 0;
+//height: 100vh;
+//width: 100%;
+//background: #066bb8;
+//transform-origin: right;
+//}
+
+.faq-row-wrapper {
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+
+  .faq-row-wrapper .styles_faq-row-wrapper__3vA1D {
+    background-color: #fb9644;
+  }
+  .faq-body {
+    background-color: #fb9644;
+    .faq-row {
+      background-color: #fb9644;
+      border-color: #fdba74;
+      .row-title {
+        color: #fb9644;
+      }
+
+      .row-content {
+        background-color: #fb9644;
+        .row-content-text {
+          color: #fb9644;
+        }
+      }
+    }
+  }
+}
+
+.responsive-iframe {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.iframe {
+  width: 100vw;
+}
