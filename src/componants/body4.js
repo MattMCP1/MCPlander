@@ -22,14 +22,14 @@ export default function Body4() {
               Never Looked So Scrumptious.
               <br />
               <br />
-              <strong className="text-orange-400 text-4xl font-bold">
+              <strong className="text-orange-400 text-3xl font-bold">
                 Without
               </strong>{" "}
-              <strong className="text-4xl font-bold">
+              <strong className="text-3xl font-bold">
                 Divorcing Content Agencies Like King Henry VIII? <br />
                 <br />
                 Our{" "}
-                <strong className="text-orange-400 text-4xl font-bold">
+                <strong className="text-orange-400 text-3xl font-bold">
                   Limited Time
                 </strong>{" "}
                 Subscription Service Offers You The Royal Treatment And
@@ -80,7 +80,21 @@ export default function Body4() {
               the words we create for you will put your customers into action.{" "}
             </strong>
             <br />
-            <CTAsub />
+            <Container>
+              <div
+                id="bgimg"
+                class="flex bg-[url('/pattern.svg')] items-center Z-9 h-full col-span-1 sm:flex  sm:hidden  w-full"
+              >
+                <img
+                  src="/Bookmockbg.png"
+                  class=" object-cover w-full rounded -mb-32   max-w-none lg:absolute lg:max-w-md xl:max-w-lg "
+                  alt="Dashboard"
+                />
+              </div>
+              <div className="py-4">
+                <Purchase />
+              </div>
+            </Container>
             <br /> Right now, tons of businesses are saying no to content
             agencies out of fear of past trauma. <br />
             <br />
@@ -116,7 +130,7 @@ export default function Body4() {
             to cheat the system with cheap content and high rewards will double
             in price and time when you start having to build yourself from the
             ground up again. <br /> <br />
-            <strong>But it’s not all bad.</strong>
+            <strong className="text-orange-400">But it’s not all bad.</strong>
             <br />
             <br />
             Right now, we’re offering ten slots for businesses like you that
@@ -143,7 +157,10 @@ export default function Body4() {
             tripled in size; even our marketers and client communications staff
             can write if need be. We have a huge, dedicated team of staff at MCP
             who digest content like they’re inhaling Kinder Buenos.
-            <br /> <br /> Better yet, they’re efficient.
+            <br /> <br />{" "}
+            <strong className="text-orange-400">
+              Better yet, they're efficent.
+            </strong>
             <br />
             <br />
             <br /> We’re human, which means we’re going to make mistakes. That’s
@@ -239,7 +256,7 @@ export default function Body4() {
             <strong>
               And we may NEVER offer something this grand again.
             </strong>{" "}
-            <br />
+            <br /> <br />
             So you now have two choices. <br /> <br />
             <ol>
               {" "}

@@ -49,9 +49,7 @@ export default function CTAsub() {
                       href="https://mycontentpal.spp.io/order/XZ5678"
                       className=""
                     >
-                      <span className="text-xl font-bold">
-                        Purchase For Only ..
-                      </span>
+                      <span className="text-xl font-bold">SUBSCRIBE</span>
                     </Link>
                   </button>
                 </div>

@@ -53,7 +53,7 @@ export default function Cards() {
               <p>Sign up at our portal </p>
             </div>
           </div>
-          <div className="">
+          <div className="pb-8">
             <div className="p-8">
               <h1 className="font-bold text-5xl">starter</h1>
               <p>description of what is going into these cards</p>
@@ -68,7 +68,7 @@ export default function Cards() {
               <p>Sign up at our portal </p>
             </div>
           </div>
-          <div className=" bg-orange-100 -mt-10 rounded-t-xl ">
+          <div className=" bg-orange-100 -mt-10 rounded-t-xl pb-8 ">
             <div className="p-8">
               <a
                 href="#_"
