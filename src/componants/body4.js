@@ -100,13 +100,14 @@ export default function Body4() {
       </div>
 
       <section className="bg-[#1F2937]">
-        <Container>
-          <div className="text-white text-center text-2xl ">
-            <br />
-            <br />
-            <div className="text-black">
-              <Cards />
-            </div>
+        <div className="text-white text-center text-2xl ">
+          <br />
+          <br />
+
+          <div className="text-black">
+            <Cards />
+          </div>
+          <Container>
             <br />
             <br />
             <strong>
@@ -345,9 +346,9 @@ export default function Body4() {
             <br /> If you’re interested in becoming an elite member of our
             family, sign up now before our ten positions are taken. That’s
             right, ten!! That’s not a lot. And the countdown’s already begun.
-          </div>
-          <CTAsub />
-        </Container>
+          </Container>
+        </div>
+        <CTAsub />
       </section>
 
       <div />
