@@ -3,7 +3,7 @@
 export default function Linkprocess2() {
   return (
     <>
-      <section class="w-full pt-6 pb-24 ">
+      <section class="w-full pt-6  ">
         <div className="">
           <div class="relative   mx-auto max-w-7xl ">
             <div class="  relative    shadow-2xl  bg-gradient-to-r from-orange-500 to-orange-300 rounded-2xl md:grid-cols-5 lg:gap-0">

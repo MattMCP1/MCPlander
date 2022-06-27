@@ -3,7 +3,7 @@ import Container from "../container";
 export default function Linkprocess1() {
   return (
     <>
-      <section class="w-full pt-6 pb-24 ">
+      <section class="w-full pt-6  ">
         <div className="">
           <div class="relative  mx-auto max-w-7xl ">
             <div class="  relative grid items-center  grid-cols-1 gap-10   shadow-2xl md:p-16 lg:p-20 xl:p-24 bg-gradient-to-r from-orange-500 to-orange-300 rounded-2xl md:grid-cols-5 lg:gap-0">

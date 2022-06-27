@@ -63,3 +63,32 @@
 .iframe {
   width: 100vw;
 }
+
+.switch {
+  width: 100px;
+  height: 45px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 25px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.switch[data-isOn="true"] {
+  justify-content: flex-end;
+}
+
+.handle {
+  width: 35px;
+  height: 35px;
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.handlecards {
+  width: 35px;
+  height: 35px;
+  background-color: #169cf9;
+  border-radius: 20px;
+}
