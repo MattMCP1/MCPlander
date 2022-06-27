@@ -10,6 +10,71 @@ import CTA from "./CTA";
 import Linkprocess2 from "./slider/linkprocess2";
 import CTAsub from "./SubCTA";
 import Cards from "./cards";
+
+const styles = {
+  borderradius: "1rem",
+  titleTextSize: "3rem",
+  bgColor: "#fb9644",
+  titleTextColor: "white",
+  rowTitleColor: "white",
+  rowContentColor: "white",
+  arrowColor: "white",
+};
+
+const config = {
+  animate: true,
+  // arrowIcon: "V",
+  // tabFocus: true
+};
+
+const data = {
+  title: "",
+  rows: [
+    {
+      title: "Who is the KWR for?",
+      content: `Anyone who doesn't want to spend the time sifting through tons of data will benefit from this report,
+       whether you're an agency that doesn't want to disappoint their client or a small business owner who wants to speed up their rank-high-fast process.`,
+    },
+    {
+      title: "Why is a keyword research plan essential? ",
+      content: `If you want to spend the least and rank the quickest, you need a game plan. KWR forms the foundation of that plan, and attracting the right customers is vital to business success. 
+Additionally, matching search intent is imperative to bringing relevant traffic to your website.`,
+    },
+    {
+      title: "How can i benefit from the KWR report",
+      content: `You can save yourself a lot of agony, stress, time, and money, and you can sleep at night without fear of letting down your clients or your business. 
+The time you'll save from having a report means you can use it to tend to other areas of your business that need your attention. `,
+    },
+    {
+      title: "What do you get in My Keyword Pal?  ",
+      content: (
+        <p>
+          In this report, you'll get actionable information derived from
+          metrics. We take a snapshot of the competitive environment around a
+          keyword and provide you with the best solution to competing and
+          ranking number one on Google.`
+        </p>
+      ),
+    },
+    {
+      title: "What information do you need to give to us?",
+      content: `We need your niche, company name, website and any specific keywords you might want to target.`,
+    },
+    {
+      title: "How do you use My Keyword Pal?",
+      content: `You can use it as a go-to guide for your content strategy. No more guesswork on what to write next. It's all laid out for you.`,
+    },
+    {
+      title: "Do we report on local keywords?",
+      content: `Yes, the more niche the keyword, the easier it will be to rank.`,
+    },
+    {
+      title: "Why are you missing specific keywords?",
+      content: `We choose keywords based on metrics. If you don't see a couple there, it's more than likely that they are not as valuable as you might think or too competitive and should be focused on later when your site is strong enough to compete.`,
+    },
+  ],
+};
+
 export default function Body4() {
   return (
     <>
@@ -28,12 +93,6 @@ export default function Body4() {
               <strong className="text-3xl font-bold">
                 Divorcing Content Agencies Like King Henry VIII? <br />
                 <br />
-                Our{" "}
-                <strong className="text-orange-400 text-3xl font-bold">
-                  Limited Time
-                </strong>{" "}
-                Subscription Service Offers You The Royal Treatment And
-                Priceless Perks You Won’t Find Anywhere Else!
               </strong>
             </h1>
           </div>
@@ -50,13 +109,23 @@ export default function Body4() {
             </div>
             <br />
             <br />
+            <strong>
+              Our{" "}
+              <strong className="text-orange-400 text-3xl font-bold">
+                Limited Time
+              </strong>{" "}
+              Subscription Service Offers You The Royal Treatment And Priceless
+              Perks You Won’t Find Anywhere Else!
+            </strong>
+            <br />
+            <br />
             If you say “I do” to us, we say “I do” to you, your clients AND your
             customers. This is a union of two businesses working together till
             subscription-do-us-part. Our job is to settle your problems with
             solutions and make you feel like the powerful business you are.{" "}
             <br />
             <br />
-            We’re prepared for the commitment. <br />
+            <strong>We’re prepared for the commitment.</strong> <br />
             <br />
             And with 10 slots up for grabs, our family is about to get a whole
             lot bigger. <br />
@@ -67,9 +136,11 @@ export default function Body4() {
             writing with search engine optimization. Maybe you’re struggling to
             find quality writers within your budget, or the turn-around time is
             poor. <br />
-            <br /> You’re not alone. <br /> We have tons of people come to us
-            with these concerns. They tell us that they’ve been burned before
-            and are unsure if they can trust again.
+            <br />
+            <strong>You’re not alone</strong> . <br />
+            <br /> We have tons of people come to us with these concerns. They
+            tell us that they’ve been burned before and are unsure if they can
+            trust again.
             <br /> And we understand that.
             <br /> That’s why we put our graft on and made an offer you
             LITERALLY cannot refuse. Telling you that we’re good enough isn’t
@@ -131,6 +202,9 @@ export default function Body4() {
             in price and time when you start having to build yourself from the
             ground up again. <br /> <br />
             <strong className="text-orange-400">But it’s not all bad.</strong>
+            <br />
+            <br />
+            <Faq data={data} styles={styles} config={config} />
             <br />
             <br />
             Right now, we’re offering ten slots for businesses like you that
