@@ -17,7 +17,7 @@ function Index() {
               </h2>
               <p className="py-4">
                 {" "}
-                Effective strategies with a minimum budget to give you seo a
+                Effective strategies with a minimum budget to give your seo a
                 solid foundation
               </p>
             </div>
