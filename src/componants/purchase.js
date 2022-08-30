@@ -1,8 +1,59 @@
 import Link from "next/link";
+import CountdownTimer from "../componants/countdown/CountdownTimer";
 export default function Purchase() {
+  const today = new Date().getDate();
+  const deadline = today + 3;
+  console.log(deadline);
+  // handle countdown
+
+  const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000;
+  const NOW_IN_MS = new Date().getTime();
+  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
+
+  // // handle month format
+
+  const monthNames = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "June",
+    "July",
+    "Aug",
+    "Sept",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+
+  const monthint = new Date().getMonth();
+  const month = monthNames[monthint];
+
+  // handles suffix to date
+
+  const nth = function (deadline) {
+    if (deadline > 3 && deadline < 21) return "th";
+    switch (deadline % 10) {
+      case 1:
+        return "st";
+      case 2:
+        return "nd";
+      case 3:
+        return "rd";
+      default:
+        return "th";
+    }
+  };
+
+  console.log(nth(deadline));
+
+  // final output
+  const Deadlineformat = month + " " + deadline + nth(deadline);
+
   return (
     <>
-      <section class="w-full pt-12 mt-4 ">
+      <section class="w-full pt-12 lg-px-0 px-4 ">
         <div className="">
           <div class="relative   grid items-center mx-auto max-w-7xl ">
             <div class="  relative grid items-center  grid-cols-1 px-12 py-4  shadow-2xl  bg-gradient-to-r from-orange-500 to-orange-300 rounded-2xl md:grid-cols-5 lg:gap-0">
@@ -35,13 +86,14 @@ export default function Purchase() {
                 </svg>
               </div>
               <div class="  col-span-1 md:col-span-3 h-full grid content-end py-16 p-4 lg:mb-24 overflow-hidden">
-                <h2 class="mb-1 text-3xl font-bold leading-tight text-white md:mb-3 md:text-3xl lg:text-4xl xl:text-5xl">
+                <h2 class="mb-1 text-3xl font-bold leading-tight text-white md:mb-3 md:text-3xl lg:text-4xl xl:text-5xl text-center">
                   The Keyword Research Tool{" "}
                 </h2>
-                <span class="block lg:mt-3 mb-4 ">
-                  Kickstart you content strategy
-                </span>
 
+                <div className="py-4 flex justify-center">
+                  {" "}
+                  <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+                </div>
                 <button className="flex items-center justify-center   py-2 text-base font-medium leading-6 text-black whitespace-no-wrap bg-white border-2 border-transparent rounded-full shadow-sm md:w-auto md:inline-flex hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-600">
                   <Link
                     href="https://mycontentpal.spp.io/order/XZ5678"
