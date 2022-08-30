@@ -166,8 +166,11 @@ export default function Body() {
 
           <div className="flex bg-[#1f2937] text-center flex justify-center lg:py-8 lg:text-6xl -mt-4">
             <h1 className="text-white text-4xl  font-bold lg:text-5xl">
-              The benefits of using My content pal's
-              <strong className="text-orange-400 "> MycontentPal </strong>{" "}
+              The benefits of using
+              <strong className="text-orange-400 ">
+                {" "}
+                MycontentPal's{" "}
+              </strong>{" "}
               Keyword Research Tool!
             </h1>
           </div>
@@ -405,11 +408,11 @@ export default function Body() {
                     color="#fff"
                     order="1"
                   >
-                    <h3 className="font-bold text-5xl text-red-400">£199</h3>
+                    <h3 className="font-bold text-5xl text-red-400">$199</h3>
                   </RoughNotation>
                 </div>
                 <h3 className="font-bold text-center text-7xl text-white">
-                  £149
+                  $149
                 </h3>
                 {/* <p className="lg:hidden block text-white">
                             This is a breif description of the job being
@@ -451,16 +454,6 @@ export default function Body() {
                   <img
                     className="object-contain w-auto h-6"
                     src="/SEOpartners.png"
-                    alt=""
-                  />
-                  <img
-                    className="object-contain w-auto h-6"
-                    src="/APV.png"
-                    alt=""
-                  />
-                  <img
-                    className="object-contain w-auto h-6"
-                    src="/digitaloft.png"
                     alt=""
                   />
                 </div>

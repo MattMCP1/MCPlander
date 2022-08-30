@@ -17,8 +17,8 @@ function Index() {
               </h2>
               <p className="py-4">
                 {" "}
-                The reason why most SEOs are stuck on the treadmill of blown
-                budgets and disappointing results
+                Effective strategies with a minimum budget to give you seo a
+                solid foundation
               </p>
             </div>
             <div>
@@ -35,8 +35,7 @@ function Index() {
               </h2>
               <p className="py-4">
                 {" "}
-                The reason why most SEOs are stuck on the treadmill of blown
-                budgets and disappointing results
+                The importance of effective copy in reducing website bounce rate
               </p>
             </div>
             <div>
@@ -54,8 +53,7 @@ function Index() {
               </h2>
               <p className="py-4">
                 {" "}
-                The reason why most SEOs are stuck on the treadmill of blown
-                budgets and disappointing results
+                The Power of link juice and an effective backlink strategy
               </p>
             </div>
           </div>
@@ -94,8 +92,8 @@ function Index() {
               </RoughNotation>
               <p className="py-4">
                 {" "}
-                The reason why most SEOs are stuck on the treadmill of blown
-                budgets and disappointing results
+                Understand what your competitors are doing to grab the top
+                google spots
               </p>
             </div>
 
@@ -115,8 +113,7 @@ function Index() {
               </RoughNotation>
               <p className="py-4">
                 {" "}
-                The reason why most SEOs are stuck on the treadmill of blown
-                budgets and disappointing results
+                Common pitfalls in your website copy that is costing you money
               </p>
             </div>
             <div>
