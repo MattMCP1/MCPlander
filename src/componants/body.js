@@ -412,7 +412,7 @@ export default function Body() {
                   </RoughNotation>
                 </div>
                 <h3 className="font-bold text-center text-7xl text-white">
-                  $149
+                  $249
                 </h3>
                 {/* <p className="lg:hidden block text-white">
                             This is a breif description of the job being

@@ -50,7 +50,7 @@ export default function CTA() {
                       className=""
                     >
                       <span className="text-xl font-bold">
-                        Purchase For Only $199
+                        Purchase For Only $249
                       </span>
                     </Link>
                   </button>
