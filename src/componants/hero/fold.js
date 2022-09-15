@@ -158,7 +158,7 @@ function Fold() {
                         <div className="inline-grid grid-cols-2 gap-8 mt-8 lg:gap-x-12">
                           <img
                             className="object-contain w-auto h-6"
-                            src="/Searcharoo.png"
+                            src="/APV.png"
                             alt=""
                           />
 

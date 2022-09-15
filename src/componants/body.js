@@ -195,45 +195,6 @@ export default function Body() {
               />
             </div>
           </Container>
-          <section class="">
-            <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-              <div class="text-center"></div>
-
-              <div class="grid items-center grid-cols-2 gap-10 mt-20 md:grid-cols-4 sm:gap-y-16">
-                <div>
-                  <img
-                    class="object-contain w-auto mx-auto h-14"
-                    src="./Searcharoo.png"
-                    alt=""
-                  />
-                </div>
-
-                <div>
-                  <img
-                    class="object-contain w-auto mx-auto h-14"
-                    src="./SEOpartners.png"
-                    alt=""
-                  />
-                </div>
-
-                <div>
-                  <img
-                    class="object-contain w-auto h-14  mx-auto"
-                    src="APV.png"
-                    alt=""
-                  />
-                </div>
-
-                <div>
-                  <img
-                    class="object-contain w-auto mx-auto h-14 -ml-8 mt-7"
-                    src="./digitaloft.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </section>
           <div className="bg-[#1f2937]">
             <Purchase />
           </div>
@@ -447,7 +408,7 @@ export default function Body() {
                 <div className="inline-grid grid-cols-2 gap-8 mt-8 lg:gap-x-12">
                   <img
                     className="object-contain w-auto h-6"
-                    src="/Searcharoo.png"
+                    src="/APV.png"
                     alt=""
                   />
 
