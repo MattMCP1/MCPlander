@@ -99,7 +99,7 @@ export default function Purchase() {
                     href="https://mycontentpal.spp.io/order/XZ5678"
                     className=""
                   >
-                    <span className="text-xl font-bold">Now Only $249</span>
+                    <span className="text-xl font-bold">Now Only $499</span>
                   </Link>
                 </button>
               </div>

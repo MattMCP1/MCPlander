@@ -369,11 +369,11 @@ export default function Body() {
                     color="#fff"
                     order="1"
                   >
-                    <h3 className="font-bold text-5xl text-red-400">$199</h3>
+                    <h3 className="font-bold text-5xl text-red-400">$699</h3>
                   </RoughNotation>
                 </div>
                 <h3 className="font-bold text-center text-7xl text-white">
-                  $249
+                  $499
                 </h3>
                 {/* <p className="lg:hidden block text-white">
                             This is a breif description of the job being

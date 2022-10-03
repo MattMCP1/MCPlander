@@ -62,7 +62,7 @@ function Index() {
         <div className="lg:w-1/2 ">
           <div className="flex justify-center">
             <div className="bg-black/40 rounded-xl px-4 mb-4 py-2  text-m  text-white font-bold">
-              Limited Time offer - The KWR Plan now $199.99
+              Limited Time offer - The KWR Plan now $499.99
             </div>
           </div>
 
