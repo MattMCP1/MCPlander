@@ -212,7 +212,7 @@ export default function Body() {
                   <h1 className="text-white text-4xl  font-bold lg:text-5xl">
                     What can My{" "}
                     <strong className="text-orange-400 ">Keyword Pal</strong>{" "}
-                    can offer you <br />
+                    offer you <br />
                   </h1>
                 </div>
 
@@ -223,7 +223,7 @@ export default function Body() {
               <br />
               <p>
                 <strong className="font-2xl">We </strong>can provide you with
-                every keyword variation and intent to produce a{" "}
+                every keyword variation and intent, to produce a{" "}
                 <strong className="text-orange-300">SOLID STRATEGY</strong> that
                 will streamline your content creation with the LEAST amount of
                 investment possible.
