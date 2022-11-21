@@ -13,7 +13,7 @@ const Header = () => {
           src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
           async
         ></script>
-        <React.Fragment>
+        {/* <React.Fragment>
           <script
             dangerouslySetInnerHTML={{
               __html: `!function(f,b,e,v,n,t,s)
@@ -34,7 +34,7 @@ const Header = () => {
       src="https://www.facebook.com/tr?id=543446066647768&ev=PageView&noscript=1" />`,
             }}
           />
-        </React.Fragment>
+        </React.Fragment> */}
       </head>
 
       <Nav />
